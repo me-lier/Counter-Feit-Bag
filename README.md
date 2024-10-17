@@ -33,21 +33,20 @@ To run this project locally, follow the steps below:
 To start the web application, run the following command in the terminal:
 ```bash
 streamlit run app.py
-
+```
 This will launch the Streamlit app in your default web browser, where you can upload images of bags and get predictions on their authenticity.
 
-Project Structure
+##Project Structure
 
 	•	app.py: The main file that runs the Streamlit app.
 	•	model/: Directory containing the trained Keras model.
 	•	data/: Directory for the dataset (if applicable).
 	•	requirements.txt: Lists all the dependencies required to run the project.
 
-Contributing
+##Contributing
 
 Feel free to contribute by opening issues or submitting pull requests. For major changes, please open an issue to discuss what you would like to change.
 
-License
+##License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
-“””
+This project is licensed under the Apache License. See the LICENSE file for more details.
