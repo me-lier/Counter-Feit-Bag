@@ -1,5 +1,3 @@
-# Let's create the README.md file with the provided content.
-readme_content = """
 # Counter-Feit-Bag
 
 This project is aimed at detecting counterfeit bags using a machine learning model built with Keras and a web interface powered by Streamlit.
@@ -18,7 +16,7 @@ To run this project locally, follow the steps below:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/Counter-Feit-Bag.git
+    git clone https://github.com/me-lier/Counter-Feit-Bag.git
     ```
 2. **Navigate to the project directory**:
     ```bash
