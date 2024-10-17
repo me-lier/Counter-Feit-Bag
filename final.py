@@ -12,7 +12,7 @@ def load_and_preprocess_image(img_path, rescale_size=(100, 100)):
     return img_resized
 
 # Load the saved model
-model = load_model('my_model.h5')
+model = load_model('/model/my_model.h5')
 
 # Path to the single image file
 image_path = './original.png'  # Update the path to your image file
