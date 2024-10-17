@@ -16,13 +16,13 @@ def load_and_preprocess_image(uploaded_file, rescale_size=(100, 100)):
     img_resized = resize(img, rescale_size, mode='reflect', anti_aliasing=True)
     
     # Ensure the image has the correct shape (1, height, width, channels)
-    img_resized = np.resize(img_resized, (1,) + rescale_size + (3,))
+    img_resized = np.expand_dims(img_resized, axis=0)  # Use expand_dims instead of resize
     return img_resized
 
-# Load the saved model
-@st.cache(allow_output_mutation=True)
+# Load the saved model using st.cache_resource
+@st.cache_resource
 def load_trained_model():
-    return load_model('./model/my_model.h5')
+    return load_model('./Model/my_model.h5')
 
 model = load_trained_model()
 
