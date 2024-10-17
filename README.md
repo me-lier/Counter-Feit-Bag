@@ -40,7 +40,7 @@ This will launch the Streamlit app in your default web browser, where you can up
 
 	•	app.py: The main file that runs the Streamlit app.
 	•	model/: Directory containing the trained Keras model.
-	•	data/: Directory for the dataset (if applicable).
+	•	data/: Directory for the dataset Images
 	•	requirements.txt: Lists all the dependencies required to run the project.
 
 ## Contributing
