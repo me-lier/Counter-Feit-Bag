@@ -22,7 +22,7 @@ def load_and_preprocess_image(uploaded_file, rescale_size=(100, 100)):
 # Load the saved model
 @st.cache(allow_output_mutation=True)
 def load_trained_model():
-    return load_model('./Model/my_model.h5')
+    return load_model('./model/my_model.h5')
 
 model = load_trained_model()
 
